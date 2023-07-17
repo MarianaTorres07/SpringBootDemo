@@ -1,4 +1,4 @@
-package com.hotelGeneration.Controller;
+package com.hotelGeneration.demo.Controller;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.GetMapping;
 
-import com.hotelGeneration.Service.UserService;
-import com.hotelGeneration.Entity.User;
+import com.hotelGeneration.demo.Entity.User;
+import com.hotelGeneration.demo.Service.UserService;
 
 
 /*

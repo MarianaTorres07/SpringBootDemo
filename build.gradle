@@ -16,8 +16,18 @@ repositories {
 }
 
 dependencies {
+	//Dependenia de Spring Web (Aplicacion se convierta en una aplicacion web REST)
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	
+	//Dependencia para trabajar con JPA (Java Persistencia API)
+	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	
+	//Dependencia para conectar nuestro proyecto con una BD de MySQL
+	// https://mvnrepository.com/artifact/com.mysql/mysql-connector-j
+	implementation 'com.mysql:mysql-connector-j:8.0.31'
+	
 }
 
 tasks.named('test') {
